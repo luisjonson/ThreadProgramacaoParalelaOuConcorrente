@@ -1,0 +1,12 @@
+package cursojava.thread;
+
+public class Thread {
+	public static void main(String[] args) {
+		
+		
+		for(int pos=0;pos < 10;pos++) {
+			System.out.println("Exercultando alguma rotina"+pos);
+		}
+	}
+
+}
