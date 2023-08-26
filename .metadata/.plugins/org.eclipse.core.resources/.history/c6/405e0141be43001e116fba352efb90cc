@@ -1,0 +1,19 @@
+package cursojava.thread;
+
+import javax.swing.JOptionPane;
+
+public class AulaThread {
+	public static void main(String[] args) throws InterruptedException {
+
+		/*Codigo da rotina que eu quero exerculta em paralelo.*/
+		for (int pos = 0; pos < 10; pos++) {
+			Thread.sleep(2000);
+			/* Quero exercultar esse envio com um tempo de parada,ou com tempodeterminado */
+			System.out.println("Exercultando alguma rotina" + pos);
+		}
+		System.out.println("Chegou ao fim do codigo");
+		//fluxo de venda 
+		JOptionPane.showMessageDialog(null,"Sistema continua para o usuário");
+	}
+
+}
