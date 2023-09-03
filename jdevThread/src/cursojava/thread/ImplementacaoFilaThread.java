@@ -20,7 +20,8 @@ public class ImplementacaoFilaThread extends Thread {
 				while (interacao.hasNext()) {// Enquanto conter dados na lista irá processar
 					ObjetoFilaThread processar = (ObjetoFilaThread) interacao.next();
 
-					System.out.println(processar);
+					System.out.println(processar.getNome());
+					System.out.println(processar.getEmail());
 
 					interacao.remove();
 					try {
